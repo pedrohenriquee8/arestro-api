@@ -39,46 +39,143 @@
       "photo_url": "https://images.unsplash.com/photo-1644917777632-04f68ce502dd?auto=format&fit=crop&w=800&q=80",
       "address": "Rua Harmonia, 321 - Vila Madalena, São Paulo - SP, 05435-000",
       "rating": 4.9
+    }
+  ],
+  "foods": [
+    {
+      "id": 1,
+      "name": "Spaghetti alla Bolognese",
+      "description": "Massa longa artesanal com ragu de carne cozido lentamente em tomate e ervas.",
+      "photo_url": "https://images.unsplash.com/photo-1626844131082-256783844137?auto=format&fit=crop&w=800&q=80",
+      "rating": 4.9,
+      "price": 49.9,
+      "restaurant_id": 1
+    },
+    {
+      "id": 2,
+      "name": "Fettuccine Alfredo Trufado",
+      "description": "Fettuccine fresco em creme de parmesão finalizado com toque de trufa.",
+      "photo_url": "https://images.unsplash.com/photo-1664214649076-7b17006db5b5?auto=format&fit=crop&w=800&q=80",
+      "rating": 4.8,
+      "price": 54.9,
+      "restaurant_id": 1
+    },
+    {
+      "id": 3,
+      "name": "Gnocchi ao Pesto",
+      "description": "Nhoque de batata salteado em pesto de manjericão e nozes.",
+      "photo_url": "https://images.unsplash.com/photo-1628462626251-dc8abf27ece0?auto=format&fit=crop&w=800&q=80",
+      "rating": 4.7,
+      "price": 52.9,
+      "restaurant_id": 1
+    },
+    {
+      "id": 4,
+      "name": "Sashimi Misto Premium",
+      "description": "Seleção de cortes de salmão, atum e peixe branco frescos.",
+      "photo_url": "https://images.unsplash.com/photo-1534256958597-7fe685cbd745?auto=format&fit=crop&w=800&q=80",
+      "rating": 4.9,
+      "price": 64.9,
+      "restaurant_id": 2
+    },
+    {
+      "id": 5,
+      "name": "Nigiri Degustação",
+      "description": "Nigiris variados de salmão, atum, camarão e polvo.",
+      "photo_url": "https://images.unsplash.com/photo-1637074930269-089fde202b57?auto=format&fit=crop&w=800&q=80",
+      "rating": 4.8,
+      "price": 59.9,
+      "restaurant_id": 2
     },
     {
       "id": 6,
-      "name": "Café Mirante",
-      "description": "Cafés especiais de microtorrefação e confeitaria autoral.",
-      "photo_url": "https://images.unsplash.com/photo-1606836576983-8b458e75221d?auto=format&fit=crop&w=800&q=80",
-      "address": "Rua Joaquim Távora, 151 - Vila Mariana, São Paulo - SP, 04015-001",
-      "rating": 4.7
+      "name": "Uramaki Califórnia",
+      "description": "Rolinho invertido com kani, pepino, manga e gergelim.",
+      "photo_url": "https://images.unsplash.com/photo-1710963436908-bd64ba48fa63?auto=format&fit=crop&w=800&q=80",
+      "rating": 4.6,
+      "price": 39.9,
+      "restaurant_id": 2
     },
     {
       "id": 7,
-      "name": "Sabores do Brasil",
-      "description": "Menu regional brasileiro rotativo destacando biomas e ingredientes locais.",
-      "photo_url": "https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?auto=format&fit=crop&w=800&q=80",
-      "address": "Rua Frei Caneca, 569 - Consolação, São Paulo - SP, 01307-001",
-      "rating": 4.8
+      "name": "Picanha na Brasa",
+      "description": "Corte nobre de picanha grelhado ao ponto com sal grosso.",
+      "photo_url": "https://images.unsplash.com/photo-1683315446874-e6a629087ef8?auto=format&fit=crop&w=800&q=80",
+      "rating": 4.9,
+      "price": 79.9,
+      "restaurant_id": 3
     },
     {
       "id": 8,
-      "name": "Mediterrâneo 160",
-      "description": "Pratos leves da culinária mediterrânea com azeites e ervas frescas.",
-      "photo_url": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=800&q=80",
-      "address": "Avenida Ipiranga, 200 - República, São Paulo - SP, 01046-925",
-      "rating": 4.6
+      "name": "Fraldinha Marinada",
+      "description": "Fraldinha marinada em ervas e alho, grelhada lentamente.",
+      "photo_url": "https://images.unsplash.com/photo-1682159173065-2b49ffd61adb?auto=format&fit=crop&w=800&q=80",
+      "rating": 4.7,
+      "price": 69.9,
+      "restaurant_id": 3
     },
     {
       "id": 9,
-      "name": "Burger Estação",
-      "description": "Hambúrgueres artesanais smash com blends exclusivos.",
-      "photo_url": "https://images.unsplash.com/photo-1565607569011-577f0785694f?auto=format&fit=crop&w=800&q=80",
-      "address": "Rua Itapura, 1408 - Tatuapé, São Paulo - SP, 03310-000",
-      "rating": 4.4
+      "name": "Costela Defumada",
+      "description": "Costela bovina defumada de longa cocção.",
+      "photo_url": "https://images.unsplash.com/photo-1606157715813-aceb0ffb810e?auto=format&fit=crop&w=800&q=80",
+      "rating": 4.8,
+      "price": 74.9,
+      "restaurant_id": 3
     },
     {
       "id": 10,
-      "name": "Doces & Cacau",
-      "description": "Confeitaria fina com chocolates de origem e técnicas francesas.",
-      "photo_url": "https://images.unsplash.com/photo-1563262924-641a8b3d397f?auto=format&fit=crop&w=800&q=80",
-      "address": "Avenida Brigadeiro Faria Lima, 2232 - Jardim Paulistano, São Paulo - SP, 01489-900",
-      "rating": 4.9
+      "name": "Bowl Quinoa Legumes",
+      "description": "Quinoa com mix de legumes assados e molho cítrico.",
+      "photo_url": "https://images.unsplash.com/photo-1719677775416-1dd6a93f1a73?auto=format&fit=crop&w=800&q=80",
+      "rating": 4.8,
+      "price": 42.9,
+      "restaurant_id": 4
+    },
+    {
+      "id": 11,
+      "name": "Hambúrguer Vegano",
+      "description": "Burger de grão-de-bico e lentilha com especiarias.",
+      "photo_url": "https://images.unsplash.com/photo-1629680871149-434f75071693?auto=format&fit=crop&w=800&q=80",
+      "rating": 4.7,
+      "price": 39.9,
+      "restaurant_id": 4
+    },
+    {
+      "id": 12,
+      "name": "Curry Coco",
+      "description": "Grão-de-bico e legumes em curry de coco.",
+      "photo_url": "https://images.unsplash.com/photo-1694953593181-6ce423500712?auto=format&fit=crop&w=800&q=80",
+      "rating": 4.7,
+      "price": 41.9,
+      "restaurant_id": 4
+    },
+    {
+      "id": 13,
+      "name": "Pizza Margherita",
+      "description": "Massa de longa fermentação, molho de tomate e mozzarella de búfala.",
+      "photo_url": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=800&q=80",
+      "rating": 4.9,
+      "price": 58.9,
+      "restaurant_id": 5
+    },
+    {
+      "id": 14,
+      "name": "Pizza Pepperoni",
+      "description": "Clássica com pepperoni crocante e queijo derretido.",
+      "photo_url": "https://images.unsplash.com/photo-1692737580547-b45bb4a02356?auto=format&fit=crop&w=800&q=80",
+      "rating": 4.8,
+      "price": 62.9,
+      "restaurant_id": 5
+    },
+    {
+      "id": 15,
+      "name": "Pizza Quatro Queijos",
+      "description": "Blend de queijos especiais derretidos.",
+      "photo_url": "https://images.unsplash.com/photo-1566843971939-1fe9e277a0c0?auto=format&fit=crop&w=800&q=80",
+      "rating": 4.9,
+      "price": 61.9,
+      "restaurant_id": 5
     }
   ]
 }

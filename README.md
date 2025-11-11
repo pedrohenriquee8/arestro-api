@@ -7,12 +7,22 @@ API fictícia de restaurantes para a aplicação Arestro, desenvolvida para a di
 Recursos disponíveis:
 
 - `restaurants`: lista de restaurantes com os campos:
+
   - `id` (number)
   - `name` (string)
   - `description` (string)
   - `photo_url` (string - imagem ilustrativa do Unsplash)
   - `address` (string - endereço real em São Paulo)
   - `rating` (number - avaliação simulada de 0 a 5)
+
+- `foods`: lista de comidas (3 por restaurante) com os campos:
+  - `id` (number)
+  - `name` (string)
+  - `description` (string)
+  - `photo_url` (string - imagem ilustrativa do Unsplash)
+  - `rating` (number)
+  - `restaurant_id` (number - referência ao restaurante)
+  - `ingredients` (array de strings em Capitalize)
 
 ### Exemplos de Endpoints
 
@@ -23,6 +33,14 @@ Recursos disponíveis:
 - Ordenar por rating (desc): `GET /restaurants?_sort=rating&_order=desc`
 - Buscar por nome (contém "Pizza"): `GET /restaurants?name_like=Pizza`
 
-## Créditos das Imagens
+### Exemplos de Endpoints (Foods)
 
-Imagens obtidas de fotógrafos no [Unsplash](https://unsplash.com).
+- Todas as comidas: `GET /foods`
+- Comidas de um restaurante (ex: id 5): `GET /foods?restaurant_id=5`
+- Buscar por nome (contém "Burger"): `GET /foods?name_like=Burger`
+- Buscar por ingrediente (contém "Tomate"): `GET /foods?ingredients_like=Tomate`
+- Paginação: `GET /foods?_page=1&_limit=10`
+- Ordenar por rating (desc): `GET /foods?_sort=rating&_order=desc`
+- Combinar filtros (ex: pizzas com queijo): `GET /foods?name_like=Pizza&ingredients_like=Queijo`
+
+Observação: o JSON Server faz correspondência parcial em `*_like` e busca qualquer item do array `ingredients` que contenha o termo.
