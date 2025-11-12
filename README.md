@@ -6,6 +6,11 @@ API fictícia de restaurantes para a aplicação Arestro, desenvolvida para a di
 
 Recursos disponíveis:
 
+- `user`: objeto único representando o usuário autenticado (mock) com os campos: 
+  - `name` (string) 
+  - `email` (string) 
+  - `password` (string)
+
 - `restaurants`: lista de restaurantes com os campos:
 
   - `id` (number)
