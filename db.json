@@ -4,6 +4,13 @@
     "email": "johndoe@email.com",
     "password": "123456"
   },
+  "contacts": [
+    {
+      "userId": 1,
+      "type": "PHONE",
+      "value": "+977 9840103828"
+    }
+  ],
   "restaurants": [
     {
       "id": 1,

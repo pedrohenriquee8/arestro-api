@@ -29,6 +29,11 @@ Recursos disponíveis:
   - `restaurant_id` (number - referência ao restaurante)
   - `ingredients` (array de strings em Capitalize)
 
+- `contacts`: lista de contatos do usuário com os campos:
+  - `userId` (number)
+  - `type` (string - ex: `PHONE`)
+  - `value` (string - ex: `+977 9840103828`)
+
 ### Exemplos de Endpoints
 
 - Todos os restaurantes: `GET /restaurants`
@@ -49,3 +54,8 @@ Recursos disponíveis:
 - Combinar filtros (ex: pizzas com queijo): `GET /foods?name_like=Pizza&ingredients_like=Queijo`
 
 Observação: o JSON Server faz correspondência parcial em `*_like` e busca qualquer item do array `ingredients` que contenha o termo.
+
+### Exemplos de Endpoints (Contacts)
+
+- Todos os contatos: `GET /contacts`
+- Contato do usuário 1: `GET /contacts?userId=1`
